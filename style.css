@@ -1,0 +1,38 @@
+body {
+  overflow: hidden;
+}
+
+.image-section {
+  flex: 1; /* Occupy all available space except below */
+  display: flex;
+  justify-content: center; /* Center image horizontally */
+  align-items: center; /* Center image vertically */
+}
+
+.container {
+  height: 100vh; /* Make container full height */
+  display: flex; /* Enable flexbox layout for child elements */
+  flex-direction: column; /* Stack sections vertically */
+}
+
+.social-links {
+  display: flex;
+  justify-content: center; /* Center links horizontally */
+  align-items: flex-end; /* Align links to bottom edge */
+  padding: 10px; /* Add some padding for spacing */
+  color: #020202; /* Adjust color as needed */
+}
+
+i {
+  color: #000000;
+}
+
+.social-links a {
+  padding: 5px;
+  font-size: 1.5em;
+  transition: color 0.2s ease-in-out;
+}
+
+.social-links a:hover {
+  color: #ddd; /* Change color on hover */
+}
