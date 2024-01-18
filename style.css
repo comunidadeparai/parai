@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column; /* Stack the content vertically */
   min-height: 100vh; /* Minimum height of 100% of the viewport height */
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #image-container {
@@ -14,7 +15,7 @@ body {
 #image-container img {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 20%;
 }
 
 .social-links {
