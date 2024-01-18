@@ -1,18 +1,17 @@
 body {
-  overflow: hidden;
-}
-
-.image-section {
-  flex: 1; /* Occupy all available space except below */
   display: flex;
-  justify-content: center; /* Center image horizontally */
-  align-items: center; /* Center image vertically */
+  flex-direction: column; /* Stack the content vertically */
+  min-height: 100vh; /* Minimum height of 100% of the viewport height */
 }
 
-.container {
-  height: 100vh; /* Make container full height */
-  display: flex; /* Enable flexbox layout for child elements */
-  flex-direction: column; /* Stack sections vertically */
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#image-container img {
+  max-width: 100%; /* Para garantir que a imagem não ultrapasse o contêiner */
 }
 
 .social-links {
@@ -35,4 +34,30 @@ i {
 
 .social-links a:hover {
   color: #ddd; /* Change color on hover */
+}
+
+#new-section {
+  padding: 20px;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark gray text */
+}
+
+#new-section p {
+  text-align: justify; /* Justify text */
+  line-height: 1.6; /* Increase line height for readability */
+}
+
+#new-section ul {
+  list-style-type: disc; /* Use disc bullets for list items */
+  padding-left: 40px; /* Add some left padding to list items */
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
