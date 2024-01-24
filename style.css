@@ -18,6 +18,32 @@ body {
   max-width: 20%;
 }
 
+/* CSS para telas grandes */
+#image-container img {
+  width: 100%;
+}
+
+#menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* CSS para telas pequenas */
+@media screen and (max-width: 600px) {
+  #image-container img {
+    width: 100%;
+  }
+
+  #menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu li {
+    margin-bottom: 10px;
+  }
+}
+
 .social-links {
   display: flex;
   justify-content: center; /* Center links horizontally */
