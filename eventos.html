@@ -12,19 +12,45 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
   </head>
   <body>
     <div id="image-container">
       <img src="./images/parai.jpg" alt="comunidade.parai" />
     </div>
 
-    <div id="menu">
-      <ul>
-        <li><a href="index.html">Home / Sobre</a></li>
-        <li><a href="eventos.html">Eventos</a></li>
-        <li><a href="iniciativas.html">Iniciativas</a></li>
-      </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.jpg" alt="Logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home / Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="eventos.html">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iniciativas.html">Iniciativas</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <section id="new-section">
       <p>Eventos...</p>
@@ -74,5 +100,7 @@
         </table>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
