@@ -1,156 +1,214 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>comunidade.parai</title>
-    <link rel="icon" type="image/x-icon" href="./images/logo.ico" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-  </head>
-  <body>
-    <div id="image-container">
-      <img class="img-fluid" src="./images/parai.jpg" alt="comunidade.parai" />
-    </div>
+﻿<!DOCTYPE html>
+<html lang="en">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img src="./images/logo.jpg" alt="Logo" />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home / Sobre</a>
-          </li>
-          <!-- 
-          <li class="nav-item">
-            <a class="nav-link" href="eventos.html">Eventos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="iniciativas.html">Iniciativas</a>
-          </li>
-          -->
-          <li class="nav-item">
-            <a class="nav-link" href="ecossistema.html">Ecossistemas</a>
-          </li>
-        </ul>
-      </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Site da Comunidade Técnica de IA da Paraíba - PARAÍ">
+    <meta name="author" content="PARAÍ - Comunidade Técnica de IA da Paraíba">
+    <title>PARAÍ - Home</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo/logo.ico" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/team.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="navbar" class="navbar navbar-fixed-top navBarFixa">
+        <header id="header">
+            <div class="container">
+                <a href="https://github.com/comunidadeparai" target="_blank" class="github-corner"
+                    aria-label="View source on GitHub">
+                    <svg width="40" height="40" viewBox="0 0 250 250" style="fill:#64CEAA; color:#fff; position: absolute; top: 0; border: 0; right: 0; left: calc(100% - 40px); z-index:99999;" aria-hidden="true">
+                        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+                        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+                        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
+                    </svg>
+                </a>
+                <style>
+                    .github-corner:hover .octo-arm {
+                        animation: octocat-wave 560ms ease-in-out
+                    }
+
+                    @keyframes octocat-wave {
+
+                        0%,
+                        100% {
+                            transform: rotate(0)
+                        }
+
+                        20%,
+                        60% {
+                            transform: rotate(-25deg)
+                        }
+
+                        40%,
+                        80% {
+                            transform: rotate(10deg)
+                        }
+                    }
+
+                    @media (max-width:500px) {
+                        .github-corner:hover .octo-arm {
+                            animation: none
+                        }
+
+                        .github-corner .octo-arm {
+                            animation: octocat-wave 560ms ease-in-out
+                        }
+                    }
+                </style>
+                <div>
+                    <div class="row">
+                        <div class="col-sm-12 overflow">
+                            <div class="social-icons pull-right">
+                                <ul class="nav nav-pills">
+                                    <li>
+                                        <a href="mailto:comunidade.parai@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/comunidade.parai/" target="_blank"><i class="fa fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/para%C3%AD-comunidade-t%C3%A9cnica-de-ia-da-para%C3%ADba/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/@comunidadeparai" target="_blank"><i class="fa fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/comunidadeparai" target="_blank"><i class="fa fa-github"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="images/parai.jpg" style="display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                            width: 100%;
+                            max-width: 300px" alt="logo" class="img-responsive">
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-center ">
+                            <a class="lead" href="index.html" style="white-space:PRE"> Home / Sobre </a>
+                            <a class="lead" href="eventos.html" style="white-space:PRE"> Eventos </a>
+                            <a class="lead" href="ecossistemas.html" style="white-space:PRE"> Ecossistemas </a>
+                            <a class="lead" href="contato.html" style="white-space:PRE"> Contato </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
     </nav>
 
-    <section id="new-section">
-      <h1 id="para-comunidade-t-cnica-de-ia-da-para-ba">
-        PARAÍ - Comunidade Técnica de IA da Paraíba
-      </h1>
-      <p>
-        Bem-vindo à PARAÍ, uma comunidade para todos interessados em
-        Inteligência Artificial (IA). Seja você um profissional experiente ou
-        apenas um iniciante, estamos aqui para ajudá-lo a ter sucesso em sua
-        jornada na IA.
-      </p>
-      <h2 id="o-que-fazemos">O que fazemos</h2>
-      <p>
-        Na PARAÍ, compartilhamos conhecimento, fazemos networking e colaboramos
-        em projetos de IA. Somos um grupo diversificado de indivíduos em todos
-        os níveis de experiência, e estamos sempre prontos para ajudar uns aos
-        outros.
-      </p>
-      <h2 id="junte-se-a-n-s">Junte-se a nós</h2>
-      <p>
-        Juntar-se à PARAÍ significa que você terá a oportunidade de aprender
-        sobre as últimas tendências em IA, participar de projetos colaborativos
-        e construir relacionamentos duradouros na área de IA. Temos um interesse
-        especial em acolher pessoas que vivem na Paraíba, mas também convidamos
-        profissionais de IA de outras regiões do Brasil e do mundo.
-      </p>
-      <h2 id="atividades-e-eventos">Atividades e eventos</h2>
-      <p>Oferecemos uma variedade de atividades e eventos, incluindo:</p>
-      <ul>
-        <li>
-          Encontros presenciais e online para discutir temas relacionados à IA
-        </li>
-        <li>Palestras e workshops com especialistas em IA</li>
-        <li>Projetos e iniciativas colaborativas</li>
-      </ul>
-      <h2 id="como-participar">Como participar</h2>
-      <p>
-        Para se envolver com a PARAÍ, inscreva-se em nossos meetups e participe
-        de nossas discussões em grupo. Mal podemos esperar para conhecê-lo!
-      </p>
-      <!--
-      <p class="blink">
-        <a href="https://bit.ly/parai-inscricao-meetup-01" target="_blank"
-          >Inscreva-se no nosso primeiro meetup!
-        </a>
-      </p>
-      -->
-    </section>
+    <!-- conteudo geral -->
+    <div id="conteudo" class="container conteudo">
+        <!-- seção 'Sobre' -->
+        <section id="page-breadcrumb">
+            <div class="vertical-center">
+                <div class="container">
+                    <A id="sobreSecao" name="sobreSecao">
+                        <div class="row">
+                            <div class="action">
+                                <div class="col-sm-12">
+                                    <h1 class="title">Sobre a PARAÍ</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </A>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="single-features">
+                        <div class="col-sm-2  " data--duration="500ms" data--delay="300ms">
 
-    <div class="social-links">
-      <div class="social-container">
-        <table class="social-links">
-          <tr>
-            <td>
-              <a href="mailto:comunidade.parai@gmail.com" target="_blank"
-                ><i class="fa fa-envelope"></i>
-              </a>
-            </td>
-            <td>
-              <a href="https://github.com/comunidadeparai" target="_blank"
-                ><i class="fa-brands fa-github"></i
-              ></a>
-            </td>
-            <td>
-              <a
-                href="https://www.instagram.com/comunidade.parai/"
-                target="_blank"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-            </td>
-            <td>
-              <a href="https://www.youtube.com/@comunidadeparai" target="_blank"
-                ><i class="fa-brands fa-youtube"></i
-              ></a>
-            </td>
-            <td>
-              <a
-                href="https://www.linkedin.com/company/para%C3%AD-comunidade-t%C3%A9cnica-de-ia-da-para%C3%ADba/"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-            </td>
-            <td>
-              <a
-                href="https://chat.whatsapp.com/Hji1HxS9dixCDwYvCWxLYr"
-                target="_blank"
-                ><i class="fa-brands fa-whatsapp"></i
-              ></a>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+                        </div>
+                        <div class="col-sm-3  " data--duration="500ms" data--delay="300ms">
+                            <img src="images/parai.jpg" class="img-responsive" alt="">
+                        </div>
+
+                        <div class="col-sm-6  " data--duration="500ms" data--delay="300ms">
+
+                            <h2>PARAÍ - Comunidade Técnica de IA da Paraíba</h2>
+                            <p><strong>Bem-vindo à PARAÍ,</strong> uma comunidade para todos interessados em Inteligência Artificial (IA). Seja você um profissional experiente ou apenas um iniciante, estamos aqui para ajudá-lo a ter sucesso em sua jornada na IA.
+                               <!-- <a href="https://en.wikipedia.org/wiki/Java_(software_platform)"target="_blank">Java</a>. Não entendi onde esse link aparece-->
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-features">
+                        <div class="col-sm-4   visivelApenasTelasPequenas" data--duration="500ms" data--delay="300ms">
+                            <img src="images/target.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-sm-7 col-sm-offset-1 align-right  " data--duration="500ms" data--delay="300ms">
+                            <h2>O que fazemos</h2>
+                            <p>Na PARAÍ, compartilhamos conhecimento, fazemos networking e colaboramos em projetos de IA. 
+                               Somos um grupo diverso com todos os níveis de experiência 
+                               e estamos sempre prontos para ajudar uns aos outros.
+                            </p><!--Houve alteração no texto-->
+                        </div>
+                        <div class="col-sm-4   visivelApenasTelasGrandes" data--duration="500ms" data--delay="300ms">
+                            <img src="images/target.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="single-features">
+                        <div class="col-sm-5  " data--duration="500ms" data--delay="300ms">
+                            <img src="images/parai (1).jpg" class="img-responsive" alt="">
+                        </div>
+
+                        <div class="col-sm-6  " data--duration="500ms" data--delay="300ms">
+                            <h2>Junte-se a nós</h2>
+                            <p>Juntar-se à PARAÍ significa que você terá a oportunidade de aprender sobre as últimas tendências em IA, 
+                                participar de projetos colaborativos e construir relacionamentos duradouros na área de IA. 
+                                Temos um interesse especial em acolher pessoas que vivem na Paraíba, 
+                                mas também convidamos profissionais de IA de outras regiões do Brasil e do mundo.</p>
+                            <p>Como fazer parte? Siga as instruções contidas nesse <a
+                                    href="https://www.instagram.com/p/C2a4UeqrlEA/"
+                                    target="_blank">
+                                    <strong>post no nosso instagram</strong></a>.
+
+
+                        </div>
+                    </div>
+                    <div class="single-features">
+                        <div class="col-sm-4   visivelApenasTelasPequenas" data--duration="500ms" data--delay="300ms">
+                            <img src="images/experimentacao.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-sm-7 col-sm-offset-1 align-right  " data--duration="500ms" data--delay="300ms">
+                            <h2>Atividades e eventos</h2>
+                            <p>Oferecemos uma variedade de atividades e eventos, incluindo:
+                            </p>
+                            <ul> <!--preciso melhorar o CSS dessa parte-->
+                                <li>
+                                  Encontros presenciais e online para discutir temas relacionados à IA
+                                </li>
+                                <li>Palestras e workshops com especialistas em IA</li>
+                                <li>Projetos e iniciativas colaborativas</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4   visivelApenasTelasGrandes" data--duration="500ms" data--delay="300ms">
+                            <img src="images/experimentacao.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/membros.js"></script>
+</body>
+
 </html>
