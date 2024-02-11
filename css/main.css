@@ -1543,11 +1543,11 @@ Blog Default
 
 .arrow-right:after{
   position: absolute;
-  right: 1.5px;
+  right: 2px;
   content: "";
   top: 85px;
   background: url(../images/blog/left.png);
-  width: 43px;
+  width: 42px;
   height: 54px;
 }
 
