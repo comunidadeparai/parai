@@ -501,10 +501,10 @@ ul.sub-menu {
 *******Home Page******
 **************************/
 
-#home-slider {
+/* #home-slider {
   background: url(../images/home/slider-bg.png) 0 100% repeat-x;
   position: relative;
-}
+} */
 
 #home-slider .main-slider {
   position: relative;
@@ -645,8 +645,7 @@ ul.sub-menu {
 
 #action, 
 #page-breadcrumb {
-  background-image: url(../images/home/tour-bg.png);/*não achei uma imagem no paraí que funcionasse aqui*/
-  background-color: #fbfafa;
+  background-color: #f0f0f0;
   background-repeat: repeat-x;
   height: 155px;
   background-position: center;
@@ -1544,9 +1543,9 @@ Blog Default
 
 .arrow-right:after{
   position: absolute;
-  right: 1px;
+  right: 1.5px;
   content: "";
-  top: 15px;
+  top: 85px;
   background: url(../images/blog/left.png);
   width: 43px;
   height: 54px;

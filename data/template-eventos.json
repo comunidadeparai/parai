@@ -1,0 +1,39 @@
+{
+    "eventos": [
+        {
+            "dia": "<data-dia-numérico-do-evento>Ex. 20",
+            "mes": "<data-mês-descritivo-do-evento>Ex. Janeiro",
+            "ano": "<data-ano-numérico-do-evento>Ex. 2024",
+            "linkBanner": "<url-do-link-banner>",
+            "title": "<título-descritivo-do-evento>",
+            "detalhes": [
+                {
+                    "texto": "<tópico-descritivo-do-evento>",
+                    "url": "<url-do-link>"
+                }
+            ],
+            "slides": [
+                {
+                    "texto": "<título-descritivo-do-slide>",
+                    "url": "<url-do-link-download-slide>",
+                    "by": "<autor-do-slide>",
+                    "linkedin": "<url-linkedin-autor-do-slide>"
+                }
+            ],
+            "patrocinadores": [
+                {
+                    "nome": "<nome-descritivo-do-patrocinador>",
+                    "linkLogo": "<url-do-link-logo-patrocinador>",
+                    "urlSite": "<url-do-site-patrocinador>"
+                }
+            ],
+            "apoiadores": [
+                {
+                    "nome": "<nome-descritivo-do-apoiador>",
+                    "linkLogo": "<url-do-link-logo-apoiador>",
+                    "urlSite": "<url-do-site-apoiador>"
+                }
+            ]
+        }
+    ]
+}
