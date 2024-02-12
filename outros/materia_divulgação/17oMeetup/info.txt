@@ -1,2 +1,0 @@
-Site gerador do qrcode
-https://www.the-qrcode-generator.com/
