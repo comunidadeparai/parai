@@ -123,6 +123,10 @@
     padding-top: 90px;
   }
 
+  .conteudo.padding-top{
+    padding-top: 60px;
+  }
+
   .padding-right{
     padding-right: 80px;
   }
@@ -647,7 +651,7 @@ ul.sub-menu {
 #page-breadcrumb {
   background-color: #f0f0f0;
   background-repeat: repeat-x;
-  height: 155px;
+  height: 75px;
   background-position: center;
   display: table;
   position: static;
@@ -712,8 +716,8 @@ ul.sub-menu {
 
 .single-features {
   overflow: hidden;
-  padding-top: 65px;
-  padding-bottom: 40px;
+  padding-top: 45px;
+  padding-bottom: 30px;
 }
 
 .single-features:last-child {
