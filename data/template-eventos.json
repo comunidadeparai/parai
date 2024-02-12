@@ -11,28 +11,6 @@
                     "texto": "<tópico-descritivo-do-evento>",
                     "url": "<url-do-link>"
                 }
-            ],
-            "slides": [
-                {
-                    "texto": "<título-descritivo-do-slide>",
-                    "url": "<url-do-link-download-slide>",
-                    "by": "<autor-do-slide>",
-                    "linkedin": "<url-linkedin-autor-do-slide>"
-                }
-            ],
-            "patrocinadores": [
-                {
-                    "nome": "<nome-descritivo-do-patrocinador>",
-                    "linkLogo": "<url-do-link-logo-patrocinador>",
-                    "urlSite": "<url-do-site-patrocinador>"
-                }
-            ],
-            "apoiadores": [
-                {
-                    "nome": "<nome-descritivo-do-apoiador>",
-                    "linkLogo": "<url-do-link-logo-apoiador>",
-                    "urlSite": "<url-do-site-apoiador>"
-                }
             ]
         }
     ]
