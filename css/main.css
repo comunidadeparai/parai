@@ -219,14 +219,17 @@ h3 {
   padding-right: 0;
 }
 
-.social-icons ul li a {
+.social-icons ul li a{
   font-size: 18px;
-  color: #d3d3d3;
   padding: 0;
 }
 
-.social-icons ul li a:hover,
-.social-icons ul li a:focus {
+.social-icons ul li a i{
+  color: #d3d3d3;
+}
+
+.social-icons ul li a i:hover,
+.social-icons ul li a i:focus {
   color: #dbb075;
   background: none;
 }
@@ -816,7 +819,7 @@ ul.sub-menu {
   margin: 0 5px;
 }
 
-.social-profile .nav-pills li a {
+.social-profile .nav-pills li a i{
   color: #fff;
   border: 1px solid #fff;
   width: 40px;
