@@ -4,7 +4,6 @@ const divEcossistemas = document.querySelector(".ecossistemas");
 fetch(url).then((res) => {
     res.json().then((dados) => {
         const ecossistemas = dados.ecossistemas;
-        console.log(ecossistemas)
         ecossistemas.forEach((item) => {
         
             const template = `<tr>
