@@ -126,7 +126,7 @@ h3 {
 }
 
 .conteudo.padding-top {
-  padding-top: 60px;
+  padding-top: 45px;
 }
 
 .padding-right {
@@ -646,7 +646,7 @@ ul.sub-menu {
 
 #action,
 #page-breadcrumb {
-  background-image: url(../images/home/tour-bg.png);
+  background-image: url(../images/blog/Prancheta.png);
   background-color: #f0f0f0;
   background-repeat: repeat-x;
   height: 155px;
@@ -654,6 +654,7 @@ ul.sub-menu {
   display: table;
   position: static;
   width: 100%;
+  filter: grayscale(0);
 }
 
 .vertical-center {
