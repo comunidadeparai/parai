@@ -1,0 +1,30 @@
+{
+    "eventos": [
+        {
+            "dia": "23",
+            "mes": "Janeiro",
+            "ano": "2024",
+            "linkBanner": "outros/materia_divulgação/meetup_01/Meetup_n01_flyer.jpeg",
+            "title": "1º Meetup PARAÍ",
+            "detalhes": [
+                {
+                    "texto": "Inscrição para o 1º Meetup",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "dia": "20",
+            "mes": "Fevereiro",
+            "ano": "2024",
+            "linkBanner": "outros/materia_divulgação/meetup_02/Cartaz2.png",
+            "title": "2º Meetup PARAÍ",
+            "detalhes": [
+                {
+                    "texto": "Inscrição para o 2º Meetup",
+                    "url": "#"
+                }
+            ]
+        }
+    ]
+}

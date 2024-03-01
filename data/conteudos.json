@@ -1,0 +1,53 @@
+{
+    "conteudos": [
+        {
+            "linkConteudo": "./outros/Generative-AI-and-LLMs-for-Dummies.pdf",
+            "titulo": "Generative AI and LLMs for Dummies",
+            "descricao": "A inteligência artificial generativa (gen AI) e os modelos de linguagem grande (LLMs) estão revolucionando a maneira como vivemos e trabalhamos. A gen AI automatiza tarefas, gera conteúdo e personaliza experiências, enquanto os LLMs permitem que os chatbots se comuniquem com dados corporativos em diferentes idiomas e especialidades. Essa tecnologia abre novos campos de inovação e tem o potencial de remodelar a vida pessoal e profissional.",
+            "categoria": "Livro"
+        },
+        {
+            "linkConteudo": "./outros/2023_data_and_ai_trends_report.pdf",
+            "titulo": "2023 Data and AI Trends Report",
+            "descricao": "O '2023 Data and AI Trends Report' revela as 5 principais tendências para o ano: migração para a nuvem de dados, interoperabilidade e compartilhamento de dados, uso da IA para o bem, criação de dados sintéticos e investimento em talentos com habilidades em dados e IA. Estas tendências moldarão o futuro do uso de dados e IA, impactando diversos setores e impulsionando a inovação e o crescimento.",
+            "categoria": "Relatório"
+        },
+        {
+            "linkConteudo": "https://youtu.be/h_GTxRFYETY?si=vbKQVv0FVgKkwnLf",
+            "titulo": "I Analyzed My Finance With Local LLMs",
+            "descricao": "Bom vídeo pra introduzir como usar LLM localmente",
+            "categoria": "Video"
+        },
+        {
+            "linkConteudo": "https://github.com/mrdbourke/machine-learning-roadmap",
+            "titulo": "2020 Machine Learning Roadmap (still 90% valid for 2023)",
+            "descricao": "A roadmap connecting many of the most important concepts in machine learning, how to learn them and what tools to use to perform them. Contém <a href='https://whimsical.com/machine-learning-roadmap-2020-CA7f3ykvXpnJ9Az32vYXva' target='_blank'>mapa mental</a>",
+            "categoria": "Roadmap"
+        },
+        {
+            "linkConteudo": "https://www.betrybe.com/cursos/bootcamp-gratuito-aws-ia-generativa/?utm_medium=referral&ut",
+            "titulo": "Bootcamp Gratuito: IA Generativa com AWS",
+            "descricao": "Diferencie-se no mercado de trabalho de tecnologia com soluções e ferramentas de IA generativa da AWS.",
+            "categoria": "Curso gratuito"
+        },
+        {
+            "linkConteudo": "https://goo.gle/3u1vNsj",
+            "titulo": "Introduction to Generative AI Learning Path",
+            "descricao": "This Google Cloud Skills Boost learning path will teach you the foundational knowledge to understand generative AI and Google Cloud’s approach to this transformative technology",
+            "categoria": "Curso gratuito"
+        },
+        {
+            "linkConteudo": "./outros/fundamentals-of-data-engineering.pdf",
+            "titulo": "Fundamentals of Data Engineering",
+            "descricao": "Fundamentals of Data Engineering is a great introduction to the business of moving, processing, and handling data.",
+            "categoria": "Livro"
+        },
+        {
+            "linkConteudo": "https://aria.ci.ufpb.br/ia-para-todos-material/",
+            "titulo": "IA Para todos",
+            "descricao": "A Universidade Federal da Paraíba (UFPB) oferece um curso online gratuito de inteligência artificial (IA) para o público em geral. Mais de 20 materiais, incluindo entrevistas com outros profissionais, ex estudantes da UFPB.",
+            "categoria": "Curso gratuito"
+        }
+
+    ]
+}
