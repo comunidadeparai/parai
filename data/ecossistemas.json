@@ -1,46 +1,52 @@
 {
-    "ecossistemas": [
-        {
-            "nome": "FABWORK",
-            "tipo": "Empresa privada",
-            "txtSite": "fab.work",
-            "linkSite": "https://fab.work/"
-        },
-        {
-            "nome": "IARIS",
-            "tipo": "Empresa privada",
-            "txtSite": "iaris.com",
-            "linkSite": "https://www.iaris.com"
-        },
-        {
-            "nome": "Moises",
-            "tipo": "Empresa privada",
-            "txtSite": "moises.ai",
-            "linkSite": "https://moises.ai/"
-        },
-        {
-            "nome": "Laboratório de Sistemas Inteligentes (Brain)",
-            "tipo": "Laboratório, Universidade",
-            "txtSite": "Brain",
-            "linkSite": "https://brain.ufcg.edu.br/#h.p_ZMMquEhCocHj"
-        },
-        {
-            "nome": "Laboratório de Aplicações em Inteligência Artificial (CI/UFPB)",
-            "tipo": "Laboratório, Universidade",
-            "txtSite": "ARIA",
-            "linkSite": "https://aria.ci.ufpb.br/"
-        },
-        {
-            "nome": "Associação Paraibana de Inteligência Artificial em Saúde – APBIAS ",
-            "tipo": "Associação",
-            "txtSite": "APBIAS",
-            "linkSite": "https://apbias.com.br/"
-        },
-        {
-            "nome": "Technology and Artificial Intelligence League (TAIL)",
-            "tipo": "Organização de Estudantes",
-            "txtSite": "TAIL",
-            "linkSite": "https://www.linkedin.com/company/tailufpb/about/"
-        }
-    ]
+  "ecossistemas": [
+    {
+      "nome": "alfa inteligência - Inteligência em pesquisa",
+      "tipo": "Empresa privada",
+      "txtSite": "alfainteligencia.com.br",
+      "linkSite": "https://alfainteligencia.com.br/"
+    },
+    {
+      "nome": "FABWORK",
+      "tipo": "Empresa privada",
+      "txtSite": "fab.work",
+      "linkSite": "https://fab.work/"
+    },
+    {
+      "nome": "IARIS",
+      "tipo": "Empresa privada",
+      "txtSite": "iaris.com",
+      "linkSite": "https://www.iaris.com"
+    },
+    {
+      "nome": "Moises",
+      "tipo": "Empresa privada",
+      "txtSite": "moises.ai",
+      "linkSite": "https://moises.ai/"
+    },
+    {
+      "nome": "Laboratório de Sistemas Inteligentes (Brain)",
+      "tipo": "Laboratório, Universidade",
+      "txtSite": "Brain",
+      "linkSite": "https://brain.ufcg.edu.br/#h.p_ZMMquEhCocHj"
+    },
+    {
+      "nome": "Laboratório de Aplicações em Inteligência Artificial (CI/UFPB)",
+      "tipo": "Laboratório, Universidade",
+      "txtSite": "ARIA",
+      "linkSite": "https://aria.ci.ufpb.br/"
+    },
+    {
+      "nome": "Associação Paraibana de Inteligência Artificial em Saúde – APBIAS ",
+      "tipo": "Associação",
+      "txtSite": "APBIAS",
+      "linkSite": "https://apbias.com.br/"
+    },
+    {
+      "nome": "Technology and Artificial Intelligence League (TAIL)",
+      "tipo": "Organização de Estudantes",
+      "txtSite": "TAIL",
+      "linkSite": "https://www.linkedin.com/company/tailufpb/about/"
+    }
+  ]
 }
