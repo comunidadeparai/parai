@@ -1,6 +1,12 @@
 {
   "ecossistemas": [
     {
+      "linkSite": "https://www.pactomais.com.br/",
+      "txtSite": "Pacto Mais",
+      "nome": "Empresa que desenvolve serviços com foco para o setor farmacêutico e de fomento à saúde. <a href='https://www.youtube.com/watch?v=esNL8T_ZTo4&t=68s'  target='_blank'>Evidência que cria AI</a>. ",
+      "tipo": "Empresa privada"
+    },
+    {
       "nome": "alfa inteligência - Inteligência em pesquisa",
       "tipo": "Empresa privada",
       "txtSite": "alfainteligencia.com.br",
