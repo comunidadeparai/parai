@@ -38,6 +38,19 @@
           "url": "https://bit.ly/parai-inscricao-meetup-03"
         }
       ]
+    },
+    {
+      "dia": "20",
+      "mes": "Junho",
+      "ano": "2024",
+      "linkBanner": "outros/materia_divulgação/meetup_04/parai_meetup_04.png",
+      "title": "4º Meetup PARAÍ",
+      "detalhes": [
+        {
+          "texto": "Inscrição para o 4º Meetup",
+          "url": "https://bit.ly/parai-inscricao-meetup-04"
+        }
+      ]
     }
   ]
 }
