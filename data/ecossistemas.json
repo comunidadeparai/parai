@@ -1,6 +1,18 @@
 {
   "ecossistemas": [
     {
+      "linkSite": "https://cbaityhy.com.br/",
+      "txtSite": "CBA TECH",
+      "nome": "Empresa de tecnologia voltada para a saúde, especialistas na implantação, treinamento e suporte do sistema do eSUS AB, do ministério da saúde.",
+      "tipo": "Empresa privada"
+    },
+    {
+      "linkSite": "https://www.yaitec.com/",
+      "txtSite": "YAITEC Solutions",
+      "nome": "Desenvolvimento de soluções com IA e tecnologia para empresas globais, com foco em Engenharia de LLMs, sistemas e aplicativos.",
+      "tipo": "Empresa privada"
+    },
+    {
       "linkSite": "https://www.pactomais.com.br/",
       "txtSite": "Pacto Mais",
       "nome": "Empresa que desenvolve serviços com foco para o setor farmacêutico e de fomento à saúde. <a href='https://www.youtube.com/watch?v=esNL8T_ZTo4&t=68s'  target='_blank'>Evidência que cria AI</a>. ",
